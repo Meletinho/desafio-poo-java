@@ -1,6 +1,6 @@
 # 🚀 Bootcamp Manager - Sistema Educacional em Java
 
-![Java](https://img.shields.io/badge/Java-17+-blue)
+![Java](https://img.shields.io/badge/Java-21-blue)
 ![POO](https://img.shields.io/badge/Paradigma-Orientado%20a%20Objetos-green)
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-lightgrey)
 
