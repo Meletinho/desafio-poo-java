@@ -21,23 +21,8 @@ Sistema de gerenciamento de bootcamps educacionais que permite:
 - Acompanhamento de progresso
 - Cálculo automático de experiência (XP)
 
-## 📐 Diagrama de Classes
-```mermaid
-classDiagram
-    class Bootcamp {
-        -String nome
-        -String descricao
-        -LocalDate dataInicial
-        -LocalDate dataFinal
-        +gerarRelatorioProgresso()
-    }
-    
-    class Conteudo {
-        <<abstract>>
-        -String titulo
-        -String descricao
-        +calcularXp()* double
-    }
+
+   
     
     Bootcamp "1" *-- "*" Conteudo
     Conteudo <|-- Curso
